@@ -1,0 +1,3 @@
+*SRC=1N5400;DI_1N5400;Diodes;Si;  50.0V  3.00A  3.00us   Diodes Inc. Standard Rectifier 
+.MODEL DI_1N5400 D  ( IS=63.0n RS=14.1m BV=50.0 IBV=10.0u 
++ CJO=125p  M=0.333 N=1.70 TT=4.32u )
