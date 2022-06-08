@@ -1,0 +1,10 @@
+*1N4744
+*Motorola 15V 1W Si Zener pkg:DO-41 1,2
+.MODEL 1N4744_MS D (
++ IS=5.32E-14
++ RS=6.47
++ TT=5.01E-8
++ CJO=7.83E-11
++ M=0.33
++ BV=14.89
++ IBV=0.017)
