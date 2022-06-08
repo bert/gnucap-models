@@ -1,0 +1,11 @@
+.model 1N5408_DI D(
++ Is=63.0n
++ Rs=14.1m
++ N=1.70
++ Tt=4.32u
++ Cjo=53.0p
++ M=0.333
++ BV=1000
++ Ibv=10.0u
++ Mfg=DiodesInc
++ Type=Silicon)
