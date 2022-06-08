@@ -48,7 +48,7 @@
 *                   |   |  |   -ve Voltage Supply
 *                   |   |  |   |   Output
 *                   |   |  |   |   |
-.SUBCKT LM358       1   2  11  12  24
+.SUBCKT LM358_OS    1   2  11  12  24
 
 ***** Input Stage *****
 Q_Q1	4 5 6	QPNP1    

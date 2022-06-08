@@ -27,7 +27,7 @@
 *                   |   |   |   |   output
 *                   |   |   |   |   |
 *                   |   |   |   |   |
-.SUBCKT LM324/NS    1   2  99  50  28
+.SUBCKT LM324       1   2  99  50  28
 *
 *Features:
 *Eliminates need for dual supplies

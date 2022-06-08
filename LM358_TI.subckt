@@ -7,7 +7,7 @@
 *                | | | NEGATIVE POWER SUPPLY
 *                | | | | OUTPUT
 *                | | | | |
-.SUBCKT LM358    1 2 3 4 5
+.SUBCKT LM358_TI 1 2 3 4 5
 *
   C1   11 12 5.544E-12
   C2    6  7 20.00E-12

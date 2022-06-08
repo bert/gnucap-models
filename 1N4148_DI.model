@@ -1,0 +1,10 @@
+*SRC=1N4148;1N4148;Diodes;Si;  75.0V  0.300A  4.00ns   Diodes Inc. 
+.MODEL 1N4148_DI D (
++ IS=10.4n
++ RS=51.5m
++ BV=75.0
++ IBV=1.00u
++ CJO=2.00p
++ M=0.333
++ N=2.07
++ TT=5.76n)
