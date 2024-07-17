@@ -1,0 +1,18 @@
+* TL431A behavioral model by analog@ieee.org
+.SUBCKT TL431_A A K R
+R1 R A 1e6
+D4 A 4 2V5
+D5 A K Dc
+D1 R K Dc
+G2 K 4 6 A 90m
+G1 A 5 R 4 1
+C1 5 A 1n Rpar=1k
+R2 6 5 700k
+D2 4 R Dc
+D3 A 6 Di
+C2 K 6 40p Rser=6k Rpar=400k
+*
+.model Di D(Ron=10m)
+.model Dc D(Ron=7 Vfwd=.6 Vrev=36)
+.model 2V5 D(Ron=.13 Vfwd=.6 Vrev=2.5 Roff=7k)
+.ENDS  TL431_A

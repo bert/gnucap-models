@@ -1,0 +1,43 @@
+* Model developed by Helmut Sennewald  6/27/2004
+* This TL431 model has been developed from the schematic in the datasheet.
+* It agrees with most of the test circuits and covers
+* Tempco, C-load stability, AC gain, reverse diode, noise, transient, Zout
+*         
+*                 Ref   
+*              Catho|de
+*           Anode | |
+*               | | |  
+.SUBCKT TL431A  A K R
+Q1 N003 N002 N001 0 NPN1 2
+Q2 N002 N002 A 0 NPN1 1
+Q3 N010 N010 N008 0 PNP1
+Q4 N011 N010 N009 0 PNP1 1
+* adjust tempco
+R3 N001 A 800 TC1=0.00048
+R4 N004 N003 7.2k
+R5 N004 N002 2.4k
+R6 N005 N004 3.28k
+Q5 K R N005 0 NPN1 1
+Q6 N006 N003 A 0 NPN1 1
+R7 N007 N006 3k
+C1 N006 N003 15p
+Q7 N010 N005 N007 0 NPN1 1
+R8 K N008 800
+R9 K N009 800
+Q8 N011 N012 A 0 NPN1 1
+R10 N002 N012 1k
+D1 A N011 D3
+Q9 K N011 N014 0 NPN1 2
+R11 N014 N013 150
+Q10 K N013 A 0 NPN1 10
+R12 N013 A 10k
+C2 K N011 15p
+D2 A K D1
+D3 N011 N005 D2
+* adjust output voltage with Is
+.MODEL NPN1 NPN(Is=0.9e-14 BF=100 VAF=100 TF=0.5e-9 RB=50 IKF=10m KF=1e-16  AF=1 RE=10)
+.MODEL PNP1 PNP(Is=1e-14 BF=50 VAF=50 TF=1e-8 IKF=2m KF=1e-16 AF=1)
+.MODEL D1 D(Is=1e-13 Rs=10 CJ0=20p)
+.MODEL D2 D(Is=1e-13 Rs=10 CJ0=2p BV=5 IBV=10u)
+.MODEL D3 D(Is=1e-13 Rs=10 CJ0=2p )
+.ENDS  TL431A

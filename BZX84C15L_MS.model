@@ -1,0 +1,10 @@
+.model BZX84C15L_MS D (
++ Is=.6n
++ Rs=.5
++ Cjo=110p
++ nbv=6
++ bv=15
++ Ibv=1m
++ Vpk=15
++ mfg=Motorola
++ type=zener)

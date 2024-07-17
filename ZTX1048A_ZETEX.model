@@ -1,0 +1,34 @@
+.model ZTX1048A_ZETEX NPN (
++ IS=13.73E-13
++ NF=1.0
++ BF=550
++ IKF=8.0
++ VAF=120
++ ISE=2.6E-13
++ NE=1.38
++ NR=1.0
++ BR=300
++ IKR=6
++ VAR=15
++ ISC=1.6E-12
++ NC=1.4
++ RB=0.1
++ RE=0.022
++ RC=0.010
++ CJC=136E-12
++ CJE=559.1E-12
++ MJC=0.267
++ MJE=0.299
++ VJC=0.420
++ VJE=0.533
++ TF=600E-12
++ TR=3E-9
++ Vceo=17.5
++ Icrating=5
++ mfg=Zetex)
++; (C) 1994 ZETEX PLC, Last revision 20/01/95
++; The copyright in this model and the design embodied belong to Zetex PLC ("Zetex"). It is supplied free of charge by Zetex for
++; the purpose of research and design and may be used or copied intact (including this notice) for that purpose only. All other
++; rights are reserved. The model is believed accurate but no condition or warranty as to its merchantability or fitness for
++; purpose is given and no liability in respect of any use is accepted by Zetex PLC, its distributors or agents.
++; Zetex PLC, Fields New Road, Chadderton, Oldham OL9 8NP

@@ -1,0 +1,28 @@
+.model BC177 PNP (
++ Is=336.7f
++ Xti=3
++ Eg=1.11
++ Vaf=55.46
++ Bf=154.4
++ Ise=412.1f
++ Ne=1.429
++ Ikf=.2994
++ Xtb=1.5
++ Br=3.99
++ Isc=1.03n
++ Nc=1.958
++ Ikr=9.726
++ Rc=1.833
++ Cjc=11p
++ Mjc=.2223
++ Vjc=.5
++ Fc=.5
++ Cje=33p
++ Mje=.3333
++ Vje=.5
++ Tr=10n
++ Tf=847.7p
++ Itf=2.198
++ Xtf=23.26
++ Vtf=10 )
+; Nk=.7028 Vceo=50 Icrating=100m mfg=Philips are rejected by gnucap
