@@ -9,7 +9,11 @@ indicating either a model or a sub-circuit.
 |--------------|-------------|
 | DI | Diodes Inc. |
 | IR | International Rectifier |
+| KEMET | Kemet |
 | MS | Motorola Semiconductor |
+| MURATA | Murata |
+| NXP | Philips |
 | OS | ON Semiconductor |
 | STM | ST Micro |
 | WIKI | https://en.wikipedia.org/wiki/LTspice |
+| ZETEX | Zetex |
