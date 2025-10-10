@@ -1,0 +1,13 @@
+* http://www.hagtech.com/pdf/ac128model.pdf
+.MODEL AC128 PNP
++(
++ BF = 90
++ IS = 17u
++ RE = 220m
++ BR = 100m
++ VAF = 30
++ ISE = 190n
++ TF = 106n
++ TR = 10u
++ CJC = 100p
++)
