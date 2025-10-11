@@ -1,0 +1,3 @@
+.subckt Coilcraft_Inductor Lin Lout
+R1 Lout Lin 100Meg
+.ends Coilcraft_Inductor
