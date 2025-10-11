@@ -9,6 +9,7 @@
 *   Inductor Frequency Model
 *   Use model for Frequency Domain simulations
 *======================================================================
+.inc Model1A.subckt
 .subckt 0201AF-910_freq port1 port2 PARAMS: Cpar=0.057pF Ind=0.091uH
 X1 port1 port2 Model1A PARAMS:
 + R1=596
