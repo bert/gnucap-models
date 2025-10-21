@@ -1,4 +1,4 @@
-.model ZTX849_ZETEX NPN (
+.model ZTX849 NPN (
 + IS=5.8591E-13
 + NF=0.9919
 + BF=230
