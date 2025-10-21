@@ -5,15 +5,16 @@ My library of simulation models suitable for use with gnucap.
 Component identifier + "_" + vendor name abbreviation + "." + {"model"|"subckt"} suffix
 indicating either a model or a sub-circuit.
 
-| Abbreviation | Vendor name |
+| Folder | Vendor name |
 |--------------|-------------|
-| DI | Diodes Inc. |
+| Coilcraft | Coilcraft Inc. |
+| Diodes | Diodes Inc. |
 | IR | International Rectifier |
-| KEMET | Kemet |
+| Kemet | Kemet |
 | MS | Motorola Semiconductor |
-| MURATA | Murata |
-| NXP | Philips |
+| Murata | Murata |
+| NXP | Nexperia (Philips) |
 | OS | ON Semiconductor |
 | STM | ST Micro |
 | WIKI | https://en.wikipedia.org/wiki/LTspice |
-| ZETEX | Zetex |
+| Zetex | Zetex |
