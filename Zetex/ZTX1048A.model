@@ -1,4 +1,4 @@
-.model ZTX1048A_ZETEX NPN (
+.model ZTX1048A NPN (
 + IS=13.73E-13
 + NF=1.0
 + BF=550
